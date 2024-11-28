@@ -1,0 +1,31 @@
+h1, h2, h3, p {
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color:red;
+}
+
+fieldset {
+    border: 5px solid purple;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: blanchedalmond;
+}
+
+legend {
+    font-weight: bold;
+    color:red;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+#unyama{
+    margin-bottom: 10px;
+    background-color: aquamarine;
+    text-align: center;
+}
