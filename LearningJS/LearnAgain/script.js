@@ -72,11 +72,11 @@ age = window.prompt("What is your age?");
 age = Number(age);
 age +=1;
 console.log(age);*/
-//const PI = 3.14;
-//let radius;
-//let circumference;
-//radius = window.prompt("Enter the Radius");
-/*radius = Number(radius);
+const PI = 3.14;
+let radius;
+let circumference;
+radius = window.prompt("Enter the Radius");
+radius = Number(radius);
 
 console.log(circumference);
 
@@ -87,9 +87,8 @@ document.getElementById("mySubmit").onclick = function(){
     document.getElementById("myP1").textContent = circumference;
 
 }
-*/
-let x = 23.43;
-let y = 32.433243;
+//let x = 23.43;
+//let y = 32.433243;
 //z = Math.floor(x);
 //z = Math.ceil(x);
 //z = Math.trunc(x);
