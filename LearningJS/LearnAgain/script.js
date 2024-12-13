@@ -72,7 +72,7 @@ age = window.prompt("What is your age?");
 age = Number(age);
 age +=1;
 console.log(age);*/
-const PI = 3.14;
+/*const PI = 3.14;
 let radius;
 let circumference;
 radius = window.prompt("Enter the Radius");
@@ -86,7 +86,7 @@ document.getElementById("mySubmit").onclick = function(){
     circumference = 2 * PI * radius;
     document.getElementById("myP1").textContent = circumference;
 
-}
+}*/
 //let x = 23.43;
 //let y = 32.433243;
 //z = Math.floor(x);
@@ -101,5 +101,17 @@ document.getElementById("mySubmit").onclick = function(){
 // let randomNum =Math.floor(Math.random()*6)+2;
 //console.log(randomNum);
 
-let userName = Amos;
-console.log(userName.charAt(2));
+//let userName = Amos;
+//console.log(userName.charAt(2));
+
+let fruits = ["apple","mango","banana"];
+//adding the element at the End of the Arrat
+fruits.push("coconut");
+fruits.pop();
+fruits.unshift("potato");
+fruits.shift();
+console.log(fruits);
+console.log(fruits.length);
+console.log(fruits.indexOf("banana"));
+console.log(fruits.sort());
+console.log(fruits.sort().reverse());
